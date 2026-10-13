@@ -1,0 +1,6 @@
+<!doctype html><meta charset="utf-8"><title>TikTok認証</title>
+<body style="font-family:sans-serif;padding:24px">
+<p>このコードをコピーして、PCの画面（setup_tiktok_auth.py）に貼り付けてください。</p>
+<textarea id="c" rows="4" cols="80" readonly></textarea>
+<script>const p=new URLSearchParams(location.search);document.getElementById('c').value=p.get('code')||('エラー: '+(p.get('error_description')||p.get('error')||'codeなし'));</script>
+</body>
